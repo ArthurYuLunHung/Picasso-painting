@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header > input {
+  width: 100%;
+  height: 5vh;
+  border: 2px solid black;
+}
+
+.boxes {
+  width: 85%;
+  height: fit-content;
+  margin: 3% auto 2% auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.box {
+  height: 30vh;
+  width: 26vw;
+  background-color: aquamarine;
+  min-width: 200px;
+  margin-bottom: 2%;
+}
+
+.big-box {
+  width: 100%;
+  height: 45vh;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+.circle {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.big-circle {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.yellow {
+  background-color: goldenrod;
+}
+.pink {
+  background-color: pink;
+}
+.gray {
+  background-color: gray;
+}
+.black {
+  background-color: black;
+}
+
+#circle1 {
+  top: 10%;
+  left: 5%;
+}
+
+#circle2 {
+  bottom: 50%;
+  left: 15%;
+}
+
+#circle3 {
+  top: 3%;
+  left: 25%;
+}
+
+#circle4 {
+  top: 40%;
+  left: 50%;
+}
+
+#circle5 {
+  top: 30%;
+  left: 30%;
+}
+
+#circle6 {
+  top: 4%;
+  left: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 240px solid skyblue;
+  position: absolute;
+}
+
+#triangle1 {
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.big-triangle {
+  width: 0;
+  height: 0;
+  border-left: 190px solid transparent;
+  border-right: 190px solid transparent;
+  border-bottom: 400px solid rgb(28, 137, 55);
+  position: absolute;
+}
+
+#triangle2 {
+  bottom: 0;
+  right: 12%;
+  z-index: 1;
+}
+
+.small-triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid gray;
+  position: absolute;
+}
+.small-triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid black;
+  position: absolute;
+}
+#circle7 {
+  bottom: 2rem;
+  z-index: 3;
+}
+#triangle3 {
+  bottom: 0.2rem;
+  z-index: 3;
+}
+#circle8 {
+  bottom: 2rem;
+  left: 3rem;
+  z-index: 3;
+}
+#triangle4 {
+  bottom: 0.2rem;
+  left: 3rem;
+  z-index: 3;
+}
+#circle9 {
+  bottom: 2rem;
+  left: 6rem;
+  z-index: 3;
+}
+#triangle5 {
+  bottom: 0.2rem;
+  left: 6rem;
+  z-index: 3;
+}
+#circle10 {
+  bottom: 2rem;
+  left: 9rem;
+  z-index: 3;
+}
+#triangle6 {
+  bottom: 0.2rem;
+  left: 9rem;
+  z-index: 3;
+}
+#circle11 {
+  bottom: 2rem;
+  left: 12rem;
+  z-index: 3;
+}
+#triangle7 {
+  bottom: 0.2rem;
+  left: 12rem;
+  z-index: 3;
+}
+
+footer {
+  width: 85%;
+  height: 7vh;
+  margin: 0.5% auto;
+  background-color: bisque;
+}
+
+@media (max-width: 768px) {
+  .boxes {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .big-triangle {
+    margin: 0 auto;
+    padding: o auto;
+  }
+}
